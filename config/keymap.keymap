@@ -13,6 +13,11 @@
             key-positions = <15 17 16>;
             layers = <1>;
         };
+
+        Bluetoothclear {
+            bindings = <&bt BT_CLR>;
+            key-positions = <41 5 32 30>;
+        };
     };
 
     macros {
