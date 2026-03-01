@@ -55,7 +55,7 @@
                 &zip_xy_transform (INPUT_TRANSFORM_X_INVERT)
                 &zip_xy_to_scroll_mapper
                 /* 必要ならスクロール速度調整 */
-                &zip_scroll_scaler 1 6
+                &zip_scroll_scaler 1 10
             >;
         };
 
