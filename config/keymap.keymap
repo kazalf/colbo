@@ -39,10 +39,10 @@
             label = "CALC";
         };
 
-        new_macro: new_macro {
+        macro_Lclick_to0: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&mkp MB1 &to 0>;
             label = "NEW_MACRO";
         };
     };
