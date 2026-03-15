@@ -39,11 +39,11 @@
             label = "CALC";
         };
 
-        macro_Lclick_to0: new_macro {
+        macro_Lclick_to0: macro_Lclick_to0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&mkp MB1 &to 0>;
-            label = "NEW_MACRO";
+            label = "macro_Lclick_to0";
         };
     };
 
@@ -97,10 +97,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MB3  &mkp RCLK  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans             &mkp MB4  &mkp MB5   &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                     &trans    &trans     &trans  &trans  &trans  &trans
-                                &trans  &trans  &trans  &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &macro_Lclick_to0  &mkp MB3  &mkp RCLK  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                     &mkp MB4  &mkp MB5   &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                             &trans    &trans     &trans  &trans  &trans  &trans
+                                &trans  &trans  &trans  &trans             &trans    &trans
             >;
         };
     };
