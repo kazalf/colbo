@@ -38,6 +38,13 @@
 
             label = "CALC";
         };
+
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "NEW_MACRO";
+        };
     };
 
     keymap {
@@ -93,7 +100,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MB3  &mkp RCLK  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans             &mkp MB4  &mkp MB5   &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                     &trans    &trans     &trans  &trans  &trans  &trans
-                                &trans  &tog 5  &trans  &trans     &trans    &trans
+                                &trans  &trans  &trans  &trans     &trans    &trans
             >;
         };
     };
