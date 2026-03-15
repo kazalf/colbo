@@ -93,7 +93,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MB3  &mkp RCLK  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans             &mkp MB4  &mkp MB5   &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                     &trans    &trans     &trans  &trans  &trans  &trans
-                                &trans  &mo 5   &trans  &trans     &trans    &trans
+                                &trans  &tog 5  &trans  &trans     &trans    &trans
             >;
         };
     };
