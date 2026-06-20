@@ -7,7 +7,7 @@
 
     /* TB操作によるマウスレイヤーへの移動をすこしおくらせる */
 &zip_temp_layer {
-    require-prior-idle-ms = <500>;
+    require-prior-idle-ms = <700>;
     };
 / {
     chosen {
