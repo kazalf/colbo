@@ -39,16 +39,6 @@
             label = "K_000";
         };
 
-        macro_calc: calc {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kp LG(R)>,
-                <&macro_wait_time 100>,
-                <&kp INTERNATIONAL_5 &kp C &kp A &kp L &kp C &kp RET>;
-
-            label = "CALC";
-        };
     };
 
     keymap {
